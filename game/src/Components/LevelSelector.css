@@ -1,0 +1,30 @@
+/* LevelSelector.css */
+
+.level-selector-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Take full height of the parent container */
+}
+  
+.level-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 15px; 
+    padding: 20px;
+}
+  
+.level-tile {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px; 
+    font-size: 0.8em; 
+} 

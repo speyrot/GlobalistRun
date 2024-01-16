@@ -1,0 +1,38 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body, html {
+  font-family: 'Press Start 2P', cursive;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+#game-container {
+  width: 1000px; 
+  height: 600px; 
+  border: 2px solid #000;
+  background-image: url('../public/landscape.png');
+  background-repeat: repeat-x;
+  background-size: cover;
+  position: relative;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+.link-button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
